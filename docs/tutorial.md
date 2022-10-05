@@ -62,4 +62,4 @@ Requires the [genepattern/notebook-python39:latest Docker image](https://hub.doc
 
 | Version | Release Date | Description                                 |
 ----------|--------------|---------------------------------------------|
-| 1 | Oct 4, 2022 | Initial version for team use. |
+| 1.0.0 | Oct 4, 2022 | Initial version for team use. |
