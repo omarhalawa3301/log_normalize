@@ -17,6 +17,10 @@ This module takes in an input GCT file, process it by taking the natural log of 
 * [The GenePattern LogTransform source repository](https://github.com/omarhalawa3301/log_normalize)
 * LogTransform uses the [genepattern/notebook-python39:latest Docker image](https://hub.docker.com/layers/genepattern/notebook-python39/latest/images/sha256-1182e33d0a4d944e676003b2d4a410ec3a197db13847292cedca441a0541513d?context=explore)
 
+
+## Usage
+python log_normalize.py &lt;filename&gt; (-v)
+
 ## Parameters
 
 | Name | Description | Default Value |
