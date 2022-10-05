@@ -1,2 +1,2 @@
-# log_normalize
+# LogTransform
 GCT Log Normalizer - Mesirov Lab, UCSD
