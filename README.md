@@ -1,5 +1,5 @@
 # LogTransform
-### Omar Halawa (ohalawa@ucsd.edu) at the Mesirov Lab - University of California, San Diego
+#### Omar Halawa (ohalawa@ucsd.edu) at the Mesirov Lab - University of California, San Diego
 \
 The following repository is a GenePattern module written in Python 3, using the following [Docker image](https://hub.docker.com/layers/genepattern/notebook-python39/21.08/images/sha256-12b175ff4472cfecef354ddea1d7811f2cbf0ae9f114ede11d789b74e08bbc03?context=explore). 
 
