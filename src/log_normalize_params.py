@@ -36,8 +36,8 @@ if (args.verbose):
 name = args.filename
 
 # Validating existent file name
-file_exist = exists(name)
+filename_exist = exists(name)
 # Validating correct file type (through ".gct" extension)
 valid_ext = name.endswith(".gct")
 # Boolean AND value of both checks
-valid = file_exist and valid_ext
+valid = filename_exist and valid_ext
