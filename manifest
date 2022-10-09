@@ -1,0 +1,54 @@
+#LogTransform
+#Sun Oct 09 08:06:42 UTC 2022
+JVMLevel=
+LSID=urn\:lsid\:gp-dev-ami.genepattern.org\:genepatternmodules\:00030\:3.8
+author=Omar Halawa;Mesirov Lab - UCSD
+categories=demo;log normalization
+commandLine=\ python <libdir>log_normalize.py <filename>
+cpuType=any
+description=LogTransform is a module that takes in an input GCT file and through a python script, processes the file by performing log normalization onto all its positive values, making all other values 0.\n\nOutputs new GCT file with transformed data values.
+documentationUrl=https\://github.com/omarhalawa3301/log_normalize/blob/main/README.md
+fileFormat=.gct
+job.cpuCount=
+job.docker.image=genepattern/notebook-python39\:21.08
+job.memory=
+job.walltime=
+language=any
+license=LICENSE.txt
+name=LogTransform
+os=any
+p1_MODE=IN
+p1_TYPE=FILE
+p1_default_value=
+p1_description=Name of input GCT file to process
+p1_fileFormat=
+p1_flag=
+p1_name=filename
+p1_numValues=1..1
+p1_optional=
+p1_prefix=
+p1_prefix_when_specified=
+p1_type=java.io.File
+p1_value=
+p2_MODE=
+p2_TYPE=TEXT
+p2_default_value=False
+p2_description=Optional parameter that increases output verbosity
+p2_fileFormat=
+p2_flag=-v
+p2_name=verbose
+p2_numValues=0..1
+p2_optional=on
+p2_prefix=
+p2_prefix_when_specified=
+p2_type=java.lang.String
+p2_value=False\=False;True\=True
+privacy=private
+quality=development
+requiredPatchLSIDs=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.server.patch\:GenePattern_3_4_2\:2
+requiredPatchURLs=http\://www.broad.mit.edu/webservices/gpModuleRepository/download/prod/patch/?file\=/GenePattern_3_4_2/broad.mit.edu\:cancer.software.genepattern.server.patch/GenePattern_3_4_2/2/GenePattern_3_4_2.zip
+src.repo=https\://github.com/omarhalawa3301/log_normalize
+taskDoc=
+taskType=demo
+userid=devomarhalawa
+version=Post-feedback
