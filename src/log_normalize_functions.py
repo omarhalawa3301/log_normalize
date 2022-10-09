@@ -48,7 +48,7 @@ def get_valid():
 
     # Reading GCT file with a tab delimeter into the Pandas DataFrame df  
     return valid
-    
+
 
 def read (gct_file):
     """ Function that reads input GenePattern GCT file into a Pandas DataFrame
