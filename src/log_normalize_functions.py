@@ -17,6 +17,39 @@ import numpy as np
 """
 
 
+def get_filename_exist():
+    """ Function that returns log_normalize_params filename_exist boolean
+
+    Returns:
+        result: a boolean representing whether the filename exists
+    """
+
+    # Reading GCT file with a tab delimeter into the Pandas DataFrame df  
+    return filename_exist
+
+
+def get_valid_ext():
+    """ Function that returns log_normalize_params valid_ext boolean
+
+    Returns:
+        result: a boolean representing whether the file extension is valid
+    """
+
+    # Reading GCT file with a tab delimeter into the Pandas DataFrame df  
+    return valid_ext
+
+
+def get_valid():
+    """ Function that returns log_normalize_params valid boolean
+
+    Returns:
+        result: a boolean representing whether the file is valid
+    """
+
+    # Reading GCT file with a tab delimeter into the Pandas DataFrame df  
+    return valid
+    
+
 def read (gct_file):
     """ Function that reads input GenePattern GCT file into a Pandas DataFrame
 
@@ -88,7 +121,8 @@ def transform (df):
     # Checking for verbosity
     if (args.verbose):
         # Printing non-positive values' count
-        print("The data frame contained " + str(nonpos_counter) + " non-positive values.")
+        print("The data frame contained " + str(nonpos_counter) +
+         " non-positive values.")
 
     # returning new, now transformed, DataFrame
     return new_df
